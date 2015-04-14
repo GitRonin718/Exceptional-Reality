@@ -75,7 +75,11 @@
 
 @media only screen and (max-width: 700px) {
 
+<<<<<<< HEAD
   #menu-links {
+=======
+  #menu-links{
+>>>>>>> edbcd3739415e702daf96263d931914adbf5e87d
     display: none;
     background: white;
     clear: both;
@@ -87,6 +91,17 @@
     font-size: 1.5em;
     padding: 10px 20px;
     width: auto;
+  }
+  #navbar nav a {
+    display: block;
+    width: 100%;
+    border-left: 0;
+    border-top: 1px dotted #ccc;
+    text-align: left;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    clear: both;
   }
 
   #navbar nav a {

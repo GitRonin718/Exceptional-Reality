@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(function() {
 
   ////////// Mobile Menu //////////
@@ -68,4 +69,19 @@ $('form').submit(function(event){
 
 })
 
+=======
+$(document).ready(function(){
+	////// MOBILE MENU /////
+
+	$('a.menu-icon').click(function(){
+		$('#menu-links').slideToggle();
+	});
+
+	////// FIX HIDDEN LINKS ON SCREEN RESIZE ////
+	$(window).resize(function(){
+		if ($(window).width() > 700){
+			$('#menu-links').removeAttr('style');
+		}
+	});
+>>>>>>> edbcd3739415e702daf96263d931914adbf5e87d
 });
